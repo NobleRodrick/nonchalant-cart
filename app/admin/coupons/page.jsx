@@ -3,9 +3,7 @@ import { useEffect, useState } from "react"
 import { format } from "date-fns"
 import toast from "react-hot-toast"
 import { DeleteIcon } from "lucide-react"
-import { couponDummyData } from "@/assets/assets"
 import { useAuth } from "@clerk/nextjs"
-import { headers } from "next/headers"
 
 export default function AdminCoupons() {
 
